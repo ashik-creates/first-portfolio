@@ -64,6 +64,20 @@ nav .menu a{
     margin-right: 38px;
     justify-content: space-around;
     align-items: center;
+    gap: 163px;
+
+}
+
+.banner-info{
+    max-width: 585px;
+}
+
+.banner-image{
+    max-width: 585px;
+}
+
+.banner-image img{
+    width: 100%;
 }
 
 .banner-info h3{
@@ -79,5 +93,12 @@ nav .menu a{
 
 .banner-info p{
     font-size: 18px;
-    
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-btn{
+    display: flex;
+    gap: 30px;
 }

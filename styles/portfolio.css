@@ -152,3 +152,86 @@ nav .menu a{
     font-size: 20px;
     color: #474747;
 }
+
+/* what i do section  */
+
+#what-section-parent{
+    padding-top: 130px;
+}
+
+#what-section-parent .what-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+}
+
+.what-container .what-i-do-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.what-container .what-heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.what-i-do-info .what-card{
+    border-radius: 5px;
+    max-width: 267px;
+}
+
+.what-card img{
+    width: 44px;
+    height: 44px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#summary {
+    padding-top: 130px;
+}
+
+#summary h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#summary .summary-info-box{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 71px;
+}
+
+.summary-info-box .summary-box{
+    width: 511px;
+}
+
+#btn2{
+    margin-top: 50px;
+    margin-bottom: 113px;
+    text-align: center;
+}
+
+footer{
+    padding-top: 130px;
+}
+
+footer .footer-container{
+    width:71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 117px;
+}
+
+.form input,
+.form textarea{
+    display: block;
+    margin-bottom: 20px;
+}
